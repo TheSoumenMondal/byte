@@ -1,6 +1,7 @@
 # Byte - Travel Planning
 
-![Byte Preview](/images/banner.png)
+
+![Byte Preview](/image/banner.png)
 
 
 
