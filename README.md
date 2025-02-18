@@ -60,7 +60,7 @@ Ensure you have the following installed:
 This project is licensed under the **MIT License**.
 
 ## Contact
-For inquiries, reach out to **[thesoumenmondal50@gmail.com](mailto:thesoumenmondal50@gmail.com)** or visit our GitHub repository.
+For inquiries, reach out to **[thesoumenmondal50@gmail.com](mailto:thesoumenmondal50@gmail.com)** or visit my GitHub repository.
 
 ---
 Happy Traveling! 🌍✈️
