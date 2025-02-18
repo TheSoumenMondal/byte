@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Travel SaaS Landing Page
 
-## Getting Started
+## Overview
+The **Travel SaaS Landing Page** is a web application designed to help users plan their trips seamlessly. It allows users to input their travel details, preferences, and budget to generate a customized travel itinerary. The application uses AI to create optimized travel plans, enhancing the user experience.
 
-First, run the development server:
+## Features
+- **User-Friendly Interface**: A sleek and modern UI with a responsive design.
+- **AI-Powered Itinerary Generation**: Generates detailed travel plans based on user inputs.
+- **Custom Preferences**: Users can select preferences like Culture, Adventure, Relaxation, and Food.
+- **Budget & Travelers**: Users can specify their budget and the number of travelers.
+- **Dynamic Form Inputs**: Collects necessary details such as destination, start and end dates, and additional requirements.
+- **Real-Time Results**: Instant itinerary display after submission.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Node.js (API integration for itinerary generation)
+- **UI Components**: Shadcn/UI, Lucide Icons
+- **State Management**: React Hooks
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
+### Prerequisites
+Ensure you have the following installed:
+- **Node.js** (v16+)
+- **npm** or **yarn**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Steps to Run Locally
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/TheSoumenMondal/byte.git
+   cd travel-saas-landing
+   ```
+2. **Install Dependencies**
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+3. **Run the Development Server**
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
+4. Open `http://localhost:3000` in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
+1. Enter your travel details such as destination, dates, and budget.
+2. Choose your preferences.
+3. Click **"Get my Travel Plan"**.
+4. View your AI-generated travel itinerary.
 
-## Learn More
+## Contributing
+1. **Fork** the repository.
+2. **Create a feature branch**: `git checkout -b feature-branch`
+3. **Commit your changes**: `git commit -m "Add new feature"`
+4. **Push to the branch**: `git push origin feature-branch`
+5. **Create a Pull Request**
 
-To learn more about Next.js, take a look at the following resources:
+## License
+This project is licensed under the **MIT License**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
+For inquiries, reach out to **[thesoumenmondal50@gmail.com](mailto:thesoumenmondal50@gmail.com)** or visit our GitHub repository.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
+Happy Traveling! 🌍✈️
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
